@@ -1,0 +1,43 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+#titre_c{
+  text-align: center;
+  font: menu;
+  font-size: medium;
+}
+nav
+{
+  text-align: justify;
+  padding-top: 5px; /* Marge intérieure haut*/
+  padding-bottom: 5px; /* Marge intérieure bas*/
+  color: rgb(0, 0, 0);
+  background-color: rgb(245, 245, 245);
+  font: menu;
+  font-weight: 500;
+  font-size: medium;
+}
+nav a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+nav a:hover{
+  color: rgb(3, 155, 229);
+}
+#menu_list{
+  display: flex;
+  width: auto;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.left_item{
+  display: flex;
+  flex: 1;
+}
+.right_item{
+  display: flex;
+  margin-left: auto;
+  justify-content: space-around;
+  flex: 7;
+}
