@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/hypnose.css" />
+    <title>Hypnose</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav>
+        <ul id="menu_list">
+            <div class="left_item">
+                <li><a href="accueil.html"><img src="images/logo2.png"></a></li>
+            </div>
+            <div class="right_item">
+                <li class="unroll"><a href="#">Neurofeedback
+                        <ul class="sous_menu">
+                            <li><a href="neurofeedback.html#">Qu'est-ce que le neurofeedback thérapeutique ?</a>
+                            </li>
+                            <li><a href="neurofeedback.html#neuro_p2">Dans quels cas en avons-nous besoin ?</a></li>
+                            <li><a href="neurofeedback.html#neuro_p3">Comment se déroule une séance de
+                                    neurofeedback ?</a></li>
+                            <li><a href="neurofeedback.html#neuro_p4">Le matériel utilisé.</a></li>
+                            <li><a href="neurofeedback.html#neuro_p5">Ce que le neurofeedback thérapeutique n'est
+                                    pas.</a></li>
+                            <li class="last_child"><a href="neurofeedback.html#neuro_p6">Tarifs horaires des séances de
+                                    neurofeedback.</a></li>
+                        </ul>
+                </li>
+                <li class="unroll"><a href="#">Hypnose</a>
+                    <ul class="sous_menu">
+                        <li><a href="hypnose.html#">Qu'est-ce que l'hypnose thérapeutique ?</a></li>
+                        <li><a href="hypnose.html#hypnose_p2">Dans quels cas en avons-nous besoin ?</a></li>
+                        <li><a href="hypnose.html#hypnose_p3">Comment se déroule une séance d'hypnose ?</a></li>
+                        <li><a href="hypnose.html#hypnose_p4">Ce que l'hypnose thérapeutique n'est pas.</a></li>
+                        <li class="last_child"><a href="hypnose.html#hypnose_p5">Tarifs horaires des séance
+                                d'hypnose.</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- Google Calendar Appointment Scheduling begin -->
+                    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                    <script>
+                        (function () {
+                            var target = document.currentScript;
+                            window.addEventListener('load', function () {
+                                calendar.schedulingButton.load({
+                                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2DezXlgzg6EcsnonW8Np06kvCH6eyvvffX_piya2GGUnkU7jciTJuz2vbysEqladypm-IKiGFB?gv=true',
+                                    color: '#039BE5',
+                                    label: 'Réserver',
+                                    target,
+                                });
+                            });
+                        })();
+                    </script>
+                    <!-- end Google Calendar Appointment Scheduling -->
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <div id="hypnose_p1">
+        <!-- Slider -->
+        <div class="slider-container">
+            <div class="slide">
+                <img src="images/poids.jpg" alt="Image 1">
+                <div class="slide_text">
+                    <h2>Gestion du poids</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/cigarette.jpg" alt="Image 2">
+                <div class="slide_text">
+                    <h2>Rompre avec les addictions</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/enfant.jpg" alt="Image 3">
+                <div class="slide_text">
+                    <h2>Développement de l'enfant</h2>
+                </div>
+            </div>
+            <div class="bouton_slide">
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+        <script src="js/slider.js"></script>
+
+        <!-- Div présentant l'introduction de la partie hypnose -->
+        <div class="titre">
+            <h1>Qu'est-ce que l'hypnose thérapeutique ?</h1>
+        </div>
+        <div class="introduction">
+            <p>L’hypnose thérapeutique est une discipline qui considère le consultant comme l’acteur principal de ses
+                améliorations. Elle se
+                distingue des autres formes d’hypnose à travers sa méthodologie. Cette thérapie permet d’atteindre un
+                état
+                modifié de conscience et s’appuie sur les
+                capacités adaptatives de l’inconscient.</p>
+            <p>Avec l’hypnose ericksonienne, le thérapeute est un accompagnateur dans le processus d’apprentissage ou de changement de l’état du patient. Cette forme
+                d’hypnose est en général efficace en ce qui concerne le traitement des problèmes psychologiques liés à l’anxiété, des douleurs chroniques, des troubles
+                obsessionnels…</p>
+        </div>
+    </div>
+
+    <!-- Div présentant les différents cas de l'hypnose -->
+    <div id="hypnose_p2">
+        <div class="titre">
+            <h1>Dans quels cas en avons-nous besoin ?</h1>
+        </div>
+        <div id="hypnose_cas">
+            <div class="hypnose_div">
+                <img src="images/comportement.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Arrêt du tabac</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/poids2.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Gestion du poids</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/sommeil.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Troubles du sommeil</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/enfant.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Enfants et adolescents</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/famille.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Non-dualité parents/enfants</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/grossesse.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Grossesse</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/anxiete2.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Stress et anxiété</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/burnout.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Etat dépressif et burn-out</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/confiance2.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Confiance en soi</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/confiance.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Bien-être au travail</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/peur.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Phobie</h4>
+                </div>
+            </div>
+            <div class="hypnose_div">
+                <img src="images/séparation.jpg">
+                <div class="hypnose_div_position">
+                    <h4>Séparation et deuil</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div présentant le déroulement d'une séance d'hypnose -->
+    <div id="hypnose_p3">
+        <div class="titre">
+            <h1>Comment se déroule une séance d'hypnose ?</h1>
+            <h2>L'hypnothérapie est une thérapie brève.</h2>
+        </div>
+        <div class="seance">
+            <p>Le nombre de séance nécessaire varie en fonction des problématiques que vous souhaitez traiter et de
+                votre
+                niveau d’implication. Le premier rendez-vous dure environ 45 minutes, l’objectif est d’apprendre à mieux
+                vous connaitre et vous comprendre pour vous proposer les outils thérapeutiques qui pourraient vous
+                convenir.
+                Les séances suivantes durent environ 1 heure et 15 minutes et débutent par une induction.
+                L’induction est une
+                technique dont le but est d’aider la personne à entrer dans un état de focalisation intérieur. Je vous
+                invite confortablement à vous installer sur le fauteuil (position assise ou allongé), à entrer dans un
+                état
+                de
+                relaxation et de lâcher prise.
+                Après chaque séance, vous bénéficiez d’un accompagnement personnalisé.</p>
+        </div>
+    </div>
+
+    <!-- Div présentant la conclusion de la partie hypnose -->
+    <div id="hypnose_p4">
+        <div class="titre">
+            <h1>Ce que l'hypnose thérapeutique n'est pas.</h1>
+            <h2>L'hypnose n'est pas un outil de contrôle.</h2>
+        </div>
+        <div class="conclusion">
+            <p>Contrairement aux idées reçues, le praticien certifié ne vous manipule pas. Vous
+                contrôlez la séance, vous restez conscient et je suis là pour vous guider, vous accompagner dans vos
+                transformations.
+                L’hypnose n’est pas un remède miracle, ni un outil magique. L’hypnose est une thérapie brève active qui
+                vous
+                offre une forme de libération et de liberté de
+                l’être pour trouver vos propres réponses. Plusieurs séances sont souvent requises, ainsi que la volonté
+                du
+                patient pour venir à bout
+                de ses difficultés. L’hypnose peut être utilisée en complément dans le traitement de certaines maladies
+                et
+                ne doit nullement se
+                substituer à un suivi médical ou à des prescriptions médicamenteuses.</p>
+        </div>
+    </div>
+
+    <!-- Div présentant les tarifs de l'hypnose -->
+    <div id="hypnose_p5">
+        <div class="titre">
+            <h1>Tarifs horaires des séances d'hypnose.</h1>
+        </div>
+        <div id="tarif">
+            <div class="tarif_div">
+                <div class="prix">50 €</div>
+                <div class="tarif_txt">La première prise de contact.</div>
+                <div class="durée">Durée : 45 minutes.</div>
+            </div>
+            <div class="tarif_div">
+                <div class="prix">65 €</div>
+                <div class="tarif_txt">La consultation.</div>
+                <div class="durée">Durée : 1 heure et 15 minutes.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p><a href="documents/Mentions légales.pdf" target="_blank">Mentions légales</a></p>
+</footer>
+
+</html>

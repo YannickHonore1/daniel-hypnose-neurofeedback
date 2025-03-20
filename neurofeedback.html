@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/neurofeedback.css" />
+    <title>Neurofeedback</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav>
+        <ul id="menu_list">
+            <div class="left_item">
+                <li><a href="accueil.html"><img src="images/logo2.png"></a></li>
+            </div>
+            <div class="right_item">
+                <li class="unroll"><a href="#">Neurofeedback
+                        <ul class="sous_menu">
+                            <li><a href="neurofeedback.html#">Qu'est-ce que le neurofeedback thérapeutique ?</a>
+                            </li>
+                            <li><a href="neurofeedback.html#neuro_p2">Dans quels cas en avons-nous besoin ?</a></li>
+                            <li><a href="neurofeedback.html#neuro_p3">Comment se déroule une séance de
+                                    neurofeedback ?</a></li>
+                            <li><a href="neurofeedback.html#neuro_p4">Le matériel utilisé.</a></li>
+                            <li><a href="neurofeedback.html#neuro_p5">Ce que le neurofeedback thérapeutique n'est
+                                    pas.</a></li>
+                            <li class="last_child"><a href="neurofeedback.html#neuro_p6">Tarifs horaires des séances de
+                                    neurofeedback.</a></li>
+                        </ul>
+                </li>
+                <li class="unroll"><a href="#">Hypnose</a>
+                    <ul class="sous_menu">
+                        <li><a href="hypnose.html#">Qu'est-ce que l'hypnose thérapeutique ?</a></li>
+                        <li><a href="hypnose.html#hypnose_p2">Dans quels cas en avons-nous besoin ?</a></li>
+                        <li><a href="hypnose.html#hypnose_p3">Comment se déroule une séance d'hypnose ?</a></li>
+                        <li><a href="hypnose.html#hypnose_p4">Ce que l'hypnose thérapeutique n'est pas.</a></li>
+                        <li class="last_child"><a href="hypnose.html#hypnose_p5">Tarifs horaires des séances
+                                d'hypnose.</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- Google Calendar Appointment Scheduling begin -->
+                    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                    <script>
+                        (function () {
+                            var target = document.currentScript;
+                            window.addEventListener('load', function () {
+                                calendar.schedulingButton.load({
+                                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2DezXlgzg6EcsnonW8Np06kvCH6eyvvffX_piya2GGUnkU7jciTJuz2vbysEqladypm-IKiGFB?gv=true',
+                                    color: '#039BE5',
+                                    label: 'Réserver',
+                                    target,
+                                });
+                            });
+                        })();
+                    </script>
+                    <!-- end Google Calendar Appointment Scheduling -->
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- Slider -->
+    <div id="neuro_p1">
+        <div class="slider-container">
+            <div class="slide">
+                <img src="images/professionnel.jpg" alt="Image 1">
+                <div class="slide_txt">
+                    <h2>Optimiser ses capacités professionnelles</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/sport.jpg" alt="Image 2">
+                <div class="slide_txt">
+                    <h2>Accroître ses performances sportives</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/creativite.jpg" alt="Image 3">
+                <div class="slide_txt">
+                    <h2>Améliorer sa créativité artistique</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/apprentissage2.jpg" alt="Image 4">
+                <div class="slide_txt">
+                    <h2>Améliorer ses capacités d'apprentissage</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/planification.jpg" alt="Image 5">
+                <div class="slide_txt">
+                    <h2>Améliorer sa capacité de plafinication</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/confiance2.jpg" alt="Image 6">
+                <div class="slide_txt">
+                    <h2>Améliorer sa confiance en soi</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/peur2.jpg" alt="Image 7">
+                <div class="slide_txt">
+                    <h2>Libérer les états de stress post-traumatiques</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/emotion2.jpg" alt="Image 8">
+                <div class="slide_txt">
+                    <h2>Améliore la gestion des émotions</h2>
+                </div>
+            </div>
+            <div class="bouton_slide">
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+        <script src="js/slider.js"></script>
+
+        <!-- Div pour l'introduction du neurofeedback -->
+        <div class="titre">
+            <h1>Qu'est ce que le neurofeedback thérapeutique ?</h1>
+        </div>
+        <div class="introduction">
+            <div class="intro_txt">
+                Le neurofeedback est une thérapie issue des neurosciences qui permet d'améliorer le
+                fonctionnement et les capacités du cerveau grâce à l'auto-régulation de son activité.
+                Cet entrainement a des effets bénéfiques au niveau physique, cognitif, émotionnel et
+                comportemental, et améliore les performances sportives ou la créativité.
+            </div>
+        </div>
+        <div class="titre">
+            <h2>Les 3 principes du neurofeedback</h2>
+        </div>
+        <div class="principes">
+            <div class="principes_div">
+                <div class="principes_num">1</div>
+                <div class="principes_titre">L'homéostasie</div>
+                <div class="principes_txt">L'organisme a ses propres systèmes de régulation (température, taux de
+                    sucre dans le sang, pression artérielle,...)</div>
+                <video autoplay muted loop>
+                    <source src="video/homeostasie.mp4" type="video/mp4">
+                </video>
+
+            </div>
+            <div class="principes_div">
+                <div class="principes_num">2</div>
+                <div class="principes_titre">La neuroplasticité</div>
+                <div class="principes_txt">La capacité du cerveau à se modifier en créant, défaisant ou réorganisant des
+                    réseaux de neurones.</div>
+                <video autoplay muted loop>
+                    <source src="video/neuroplasticite.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="principes_div">
+                <div class="principes_num">3</div>
+                <div class="principes_titre">L'apprentissage</div>
+                <div class="principes_txt">Le cerveau est toujours en capacité et en recherche d'apprentissage quelque
+                    soit
+                    son état.
+                </div>
+                <video autoplay muted loop>
+                    <source src="video/apprentissage.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div présentant les troubles et symptômes avec une illustration -->
+    <div id="neuro_p2">
+        <div class="titre">
+            <h1>Dans quels cas en avons-nous besoin ?</h1>
+            <h2>Les troubles et leurs symptômes</h2>
+        </div>
+        <div class="neuro_symptoms">
+            <div class="trouble">
+                <img src="images/insomnie.jpg">
+                <h2>Troubles physiologiques</h2>
+                <ul>
+                    <li>Insomnie</li>
+                    <li>Migraine</li>
+                    <li>Douleurs</li>
+                    <li>Fatigues chroniques</li>
+                    <li>Acouphènes</li>
+                    <li>Bouffées de chaleur</li>
+                    <li>Epilepsie</li>
+                    <li>Fibromyalgie</li>
+                    <li>Maladie de Parkinson</li>
+                    <li>Maladie de Lyme</li>
+                </ul>
+            </div>
+            <div class="trouble">
+                <img src="images/cognitif.jpg">
+                <h2>Cognitif</h2>
+                <ul>
+                    <li>Mémoire déficiente</li>
+                    <li>Manque de concentration</li>
+                    <li>Troubles de l'attention</li>
+                    <li>Désorganisation de la pensée</li>
+                    <li>Problème de planification</li>
+                    <li>Problème avec le fonctionnement exécutif</li>
+                </ul>
+            </div>
+            <div class="trouble">
+                <img src="images/apprentissage.jpg">
+                <h2>Apprentissage</h2>
+                <ul>
+                    <li>Dyslexie</li>
+                    <li>Dyscalculie</li>
+                    <li>Dysphasie</li>
+                    <li>Dysorthographie</li>
+                    <li>TDA-H</li>
+                    <li>Trouble de l'opposition</li>
+                </ul>
+            </div>
+            <div class="trouble">
+                <img src="images/cerveau.jpg">
+                <h2>Handicaps liés aux lésions cérébrales</h2>
+                <ul>
+                    <li>Accident vasculaire</li>
+                    <li>Traumatisme crânien</li>
+                    <li>Lésions vertébrales</li>
+                </ul>
+            </div>
+            <div class="trouble">
+                <img src="images/depression.jpg">
+                <h2>Troubles de l'humeur</h2>
+                <ul>
+                    <li>Dépression</li>
+                    <li>Burn-out</li>
+                </ul>
+            </div>
+            <div class="trouble">
+                <img src="images/anxiete2.jpg">
+                <h2>Troubles anxieux</h2>
+                <ul>
+                    <li>Peur</li>
+                    <li>Anxiété</li>
+                    <li>Phobie</li>
+                    <li>Crise de panique</li>
+                </ul>
+            </div>
+            <div class="trouble">
+                <img src="images/colere.jpg">
+                <h2>Troubles du comportement</h2>
+                <ul>
+                    <li>Agressivité</li>
+                    <li>Impulsivité</li>
+                    <li>Addictions</li>
+                </ul>
+            </div>
+            <div class="trouble">
+                <img src="images/traumastisme.jpg">
+                <h2>Stress post-traumatique</h2>
+                <ul>
+                    <li>Disparition des reviviscences</li>
+                    <li>Troubles somatiques associés</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div présentant le déroulement d'une séance -->
+    <div id="neuro_p3">
+        <div class="titre">
+            <h1>Comment se déroule une séance de neurofeedback ?</h1>
+        </div>
+        <div class="seance">
+            <div class="seance_div">
+                <div class="seance_etape">Recherche de symptômes</div>
+                <div class="seance_txt">Lors de la première séance (durée : 2 heures), sur la base d'un questionnaire de
+                    recherche et
+                    d’évaluation de symptômes que vous aurez rempli au préalable, j’effectue une recherche de symptômes
+                    afin de bien comprendre votre demande et je recense avec vous les différents symptômes
+                    rencontrés sur le plan physique, émotionnel ou cognitif.
+                    Toutes ces informations me permettent d’établir un plan de traitement adapté à votre situation au
+                    rythme
+                    de 1 à 2 fois par semaine, suivant vos disponibilités.</div>
+            </div>
+            <div class="seance_div">
+                <div class="seance_etape">Mise en place du matériel</div>
+                <div class="seance_txt">À la suite de cet entretien, vous vous installez confortablement sur un fauteuil
+                    puis je pose des électrodes sur votre cuir chevelu afin d’effectuer l’EEG (électroencéphalogramme
+                    simplifié) permettant de mesurer l’amplitude du signal électrique générée par l’activité neuronale
+                    en
+                    direct et de manière non invasive.
+                    Je vous équipe également d’un casque audio ainsi qu’un coussin tactile et vous regardez en fonction
+                    (vidéos,
+                    animations, jeux …)</div>
+            </div>
+            <div class="seance_div">
+                <div class="seance_etape">Début de la séance</div>
+                <div class="seance_txt">La session d’analyse va durer une trentaine de minutes pendant lesquelles
+                    j’effectuerai de brèves interruptions afin d’échanger avec vous sur vos ressentis pour ajuster au
+                    mieux
+                    la séance.
+                    L’analyse de l’activité des ondes cérébrales est traduite en informations visuelles, auditives et
+                    tactiles. à chaque fois qu’une dérégulation est détectée, votre cerveau en est informé au moyen
+                    de 3 feedbacks (retours d’informations) :
+                    <br>
+                    <ul>
+                        <li>Visuel : les couleurs et l'image sur votre écran se modifient.</li>
+                        <li>Auditif : le son dans votre casque varie.</li>
+                        <li>Tactile : la vibration se modifie dans son rythme, son amplitude.</li>
+                    </ul>
+                    <br>
+                    C'est ce triple retour d'informations qui permet au cerveau d'être informé des modifications de sa
+                    propre activité et ainsi apprendre à se réguler naturellement.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div présentant le matériel utilisé -->
+    <div id="neuro_p4">
+        <div class="titre">
+            <h1>Le matériel utilisé.</h1>
+        </div>
+        <div class="materiel">
+            <div class="materiel_div">
+                <img src="images/neuroamp2.png">
+                <h4>NeuroAmp II</h4>
+                <p>Dispositif médical approuvé par l’EMA (European Medecines Agency) dans l’Union Européenne et par la
+                    FDA
+                    (Food and Drug
+                    Administration) aux États-Unis, et il est recommandé par l’association allemande des Psychiatres.
+                </p>
+            </div>
+            <div class="materiel_div">
+                <img src="images/cygnet.jpg">
+                <h4>Logiciel Cygnet</h4>
+                <p>Le logiciel Cygnet Neurofeedback est un dispositif médical approuvé dans l'Union Européenne et aux
+                    Etats-Unis.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div présentant le conclusion de la partie neuroffedback -->
+    <div id="neuro_p5">
+        <div class="titre">
+            <h1>Ce que le neurofeedback thérapeutique n'est pas.</h1>
+            <h2>Cette méthode n'est pas, et ne se substitue pas à, un traitement médical.</h2>
+        </div>
+        <div class="conclusion">
+            Elle est non invasive et sans risque pour l'intégrité physique et psychique
+            du
+            bénéficiaire. Le neurofeedback repose sur une analyse. Rien n'est envoyé au cerveau que
+            l'image de sa propre activité. Aucun courant éléctrique n'est envoyé au cerveau. Les capteurs ne font que
+            lire l'activité du cerveau et
+            le logiciel ne fait qu'informer le cerveau sur son propre fonctionnement par l'intermédiaire des
+            feedbacks.
+        </div>
+    </div>
+
+    <!-- Div présentant les tarifs du neurofeedback -->
+    <div id="neuro_p6">
+        <div class="titre">
+            <h1>Tarifs horaires des séances de neurofeedback.</h1>
+        </div>
+        <div id="tarif">
+            <div class="tarif_div">
+                <div class="prix">50 €</div>
+                <div class="tarif_txt">La première prise de contact.</div>
+                <div class="durée">Durée : 45 minutes.</div>
+            </div>
+            <div class="tarif_div">
+                <div class="prix">70 €</div>
+                <div class="tarif_txt">La consultation.</div>
+                <div class="durée">Durée : 1 heure.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p><a href="documents/Mentions légales.pdf" target="_blank">Mentions légales</a></p>
+</footer>
+
+</html>
